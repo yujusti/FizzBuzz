@@ -3,9 +3,9 @@
  */
 class FizzBuzz {
 
-    public static void main(String[] args) {
+    public static void main(String[] arg) {
         int count = 0;
-        while (count < 101) {
+        while (count < 10) {
 
             count = doFizzBuzz(count);
         }
